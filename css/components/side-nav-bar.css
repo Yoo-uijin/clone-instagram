@@ -1,0 +1,28 @@
+.side-nav-bar {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 0px;
+  border-top: var(--main-border);
+  background-color: white;
+}
+
+.side-nav-bar__list {
+  display: flex;
+}
+
+.side-nav-bar__btn {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-nav-bar__btn .fa-house {
+  margin-right: 3px;
+}
+
+.side-nav-bar__btn .fa-user-circle {
+  margin-left: 3px;
+}

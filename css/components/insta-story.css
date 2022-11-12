@@ -1,0 +1,51 @@
+.insta-story {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px var(--horizontal-space);
+  margin-bottom: 5px;
+}
+
+.insta-story__avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.insta-story__avatar--sm {
+  width: 33px;
+  height: 33px;
+}
+
+.insta-story__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.insta-story__column:first-child,
+.insta-story__column:nth-child(2) {
+  margin-left: 0;
+}
+
+.insta-story__text {
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.insta-story__column:first-child {
+  position: relative;
+}
+
+.insta-story__add {
+  position: absolute;
+  right: 5px;
+  bottom: 27px;
+  background-color: var(--blue);
+  width: 18px;
+  height: 18px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid white;
+}

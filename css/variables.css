@@ -1,0 +1,8 @@
+:root {
+  --blue: #0095F6;
+  --light-grey: rgba(246, 245, 245, 0.585);
+  --grey: #DBDBDB;
+  --horizontal-space: 17px;
+  --post-horizontal-space: 15px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+}
