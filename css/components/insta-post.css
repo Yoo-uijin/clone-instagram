@@ -1,6 +1,9 @@
 .insta-post {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
 
+.insta-post:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .insta-post__header {
@@ -8,6 +11,7 @@
   display: flex;
   align-items: center;
 }
+
 
 .insta-post__header span {
   margin-left: 10px;
@@ -90,4 +94,8 @@
 
 .insta-post__date {
   font-size: 13px;
+}
+
+.insta-post:nth-child(2) .insta-post__text span:nth-child(2) {
+  line-height: 20px;
 }

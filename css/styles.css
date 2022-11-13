@@ -10,11 +10,8 @@
 
 /* screens */
 @import "screens/login.css";
-@import "screens/home.css";
+@import "screens/search.css";
 
-body {
-  height: 1000vh;
-}
 
 .main-screen {
   padding: 0px var(--horizontal-space);
